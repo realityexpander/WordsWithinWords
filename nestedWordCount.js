@@ -11,8 +11,6 @@
 
 function nestedWordCount (wordList) {
 
-console.log(wordList)
-
   let dict = {};
   let maxWord = 0;
   let res='';
@@ -27,7 +25,6 @@ console.log(wordList)
       }
     }
   }
-  console.log(dict)
 
   return res;
 
